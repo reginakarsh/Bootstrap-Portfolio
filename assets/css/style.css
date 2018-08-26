@@ -9,7 +9,6 @@ html, body {
 .navbar {
     float: right;
     background: #ffffff;  
-    color: #777777;
     text-align: right;
     height: 90px;
     width: 100%;
@@ -22,35 +21,22 @@ html, body {
 .navbar-brand {
     background: #4aaaa5;
     color: white;
-    padding: 25px;
+    padding: 20px;
     margin-left: 10%;
     margin-right: 40%;
     font-size: 25px;
-    position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.collapse navbar-collapse, #collapsibleNavbar, .navbar-nav {
-position: fixed;
-margin-left: 30%;
-}
-
-.nav-item {
+a {
     text-decoration: none;
     color: #777777;
+}
+.nav-item {
     padding: 20px;
     display: block;
     float: left;
     background: #ffffff;  
-}
-
-a {
-    text-decoration: none;  
-    color: #777777;
-}
-
-.rightborder {
-    border-right: 1px solid lightgrey;
 }
 
 .container {
@@ -77,11 +63,16 @@ a {
 h1 { 
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 30px;
     padding-left: 20px;
     padding-top: 20px;
 }
 
+h2 {
+    color: white;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .headshot {
     float: left;
     padding: 0px 20px;
@@ -110,7 +101,7 @@ p  {
 
 /*Contact Page*/
 
-form, {
+form {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px; 
     color: #777777;
@@ -153,4 +144,13 @@ input, label {
     background: #4aaaa5;
     color: #ffffff;
     text-align: center;
+}
+
+.size {
+    max-height: 350px;
+    max-width: 250px;
+}
+
+.card-body {
+    padding-top: 0;
 }
